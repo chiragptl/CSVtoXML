@@ -10,7 +10,6 @@ class CSVReader:
             csvData = []
             for row in csvReader:
                 csvData.append(row)
-                #print(row)
             file.close()
             return csvData
         except FileNotFoundError:
