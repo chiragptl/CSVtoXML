@@ -9,7 +9,7 @@ root = minidom.Document();
 xml = root.createElement("form")
 root.appendChild(xml)
 title = root.createElement("title")
-title.appendChild(root.createTextNode(""))
+title.appendChild(root.createTextNode(""))# title of calculator here
 xml.appendChild(title)
 
 #generate xml
@@ -99,5 +99,11 @@ for inputField in reader.readCSV(path):
     displayTopicRes[inputField[0]] = displayTopic
     Generator(displayTopic = displayTopic)
     del displayTopic
+
+#code for <result>, <comment>, <script>
+
 xmlData = root.toprettyxml(indent="\t")
 print(xmlData)
+save_path_file = "calculator.xml"
+with open(save_path_file, "w") as f:
+    f.write(xmlData)

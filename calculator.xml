@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<form>
+	<title></title>
+	<var type="CHOICE">
+		<name>Eating</name>
+		<label>Eating</label>
+		<default></default>
+		<choice>
+			<label>No assistance</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderate assistance</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Considerable assistance</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Diet</name>
+		<label>Diet</label>
+		<default></default>
+		<choice>
+			<label>Regular diet</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Modified regular diet</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Special diet</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Medication</name>
+		<label>Medication</label>
+		<default></default>
+		<choice>
+			<label>Rarely</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Occasionally</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Every day</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Speech</name>
+		<label>Speech</label>
+		<default></default>
+		<choice>
+			<label>Not impaired</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderately impaired</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Unable to be understood</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Hearing</name>
+		<label>Hearing</label>
+		<default></default>
+		<choice>
+			<label>Normal</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderately impaired</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Deaf</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Sight</name>
+		<label>Sight</label>
+		<default></default>
+		<choice>
+			<label>Normal (with glasses, if needed)</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderately impaired</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Blind</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Walking</name>
+		<label>Walking</label>
+		<default></default>
+		<choice>
+			<label>No assistance</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>With help or walking aid</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Unable to walk</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Bathing</name>
+		<label>Bathing</label>
+		<default></default>
+		<choice>
+			<label>No assistance</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderate assistance</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Considerable assistance</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Dressing</name>
+		<label>Dressing</label>
+		<default></default>
+		<choice>
+			<label>No assistance</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderate assistance</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Considerable assistance</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Incontinence</name>
+		<label>Incontinence</label>
+		<default></default>
+		<choice>
+			<label>Never</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Occasionally</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>All the time</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Shaving</name>
+		<label>Shaving</label>
+		<default></default>
+		<choice>
+			<label>No assistance</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Moderate assistance</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>Considerable assistance</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Safety supervision</name>
+		<label>Safety supervision</label>
+		<default></default>
+		<choice>
+			<label>Never</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Sometimes</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>All the time</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Confined to bed</name>
+		<label>Confined to bed</label>
+		<default></default>
+		<choice>
+			<label>Not at all</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Part of the day</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>All the time</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Mentally confused</name>
+		<label>Mentally confused</label>
+		<default></default>
+		<choice>
+			<label>Never</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Sometimes</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>All the time</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Uncooperative</name>
+		<label>Uncooperative</label>
+		<default></default>
+		<choice>
+			<label>Never</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Sometimes</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>All the time</label>
+			<value>3</value>
+		</choice>
+	</var>
+	<var type="CHOICE">
+		<name>Depression</name>
+		<label>Depression</label>
+		<default></default>
+		<choice>
+			<label>Never</label>
+			<value>1</value>
+		</choice>
+		<choice>
+			<label>Sometimes</label>
+			<value>2</value>
+		</choice>
+		<choice>
+			<label>All the time</label>
+			<value>3</value>
+		</choice>
+	</var>
+</form>
