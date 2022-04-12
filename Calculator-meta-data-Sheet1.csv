@@ -1,16 +1,16 @@
 Display Name,Type,Input Value,Addtional Label,Output Box,Display Value,Calculation Only,Help,Defalut Value,Horizontal Line,Read Only
-Eating,1,No assistance|Moderate assistance|Considerable assistance,,,,1|2|3,,,,Yes
-Diet,1,Regular diet|Modified regular diet|Special diet,,,,1|2|3,,,,
-Medication,1,Rarely|Occasionally|Every day,,,,1|2|3,,,,
-Speech,1,Not impaired|Moderately impaired|Unable to be understood,,,,1|2|3,,,,
+Eating,2,No assistance|Moderate assistance|Considerable assistance,,,,1|2|3,eating,,,Yes
+Diet,2,Regular diet|Modified regular diet|Special diet,,,,1|2|3,,,,
+Medication,4,Rarely|Occasionally|Every day,,,,1|2|3,,,,
+Speech,3,Not impaired|Moderately impaired|Unable to be understood,,,,1|2|3,,,,
 Hearing,1,Normal|Moderately impaired|Deaf,,,,1|2|3,,,,
-Sight,1,"Normal (with glasses, if needed)|Moderately impaired|Blind",,,,1|2|3,,,Yes,
+Sight,8,"Normal (with glasses, if needed)|Moderately impaired|Blind",,,,1|2|3,,,Yes,
 Walking,1,No assistance|With help or walking aid|Unable to walk,,,,1|2|3,,,,
 Bathing,1,No assistance|Moderate assistance|Considerable assistance,,,,1|2|3,,,,
 Dressing,1,No assistance|Moderate assistance|Considerable assistance,,,,1|2|3,,,,
 Incontinence,1,Never|Occasionally|All the time,,,,1|2|3,,,,
-Shaving,1,No assistance|Moderate assistance|Considerable assistance,,,,1|2|3,,,,
-Safety supervision,1,Never|Sometimes|All the time,,,,1|2|3,,,,
+Shaving,4,No assistance|Moderate assistance|Considerable assistance,,,,1|2|3,,,,
+Safety supervision,8,Never|Sometimes|All the time,,,,1|2|3,,,,
 Confined to bed,1,Not at all|Part of the day|All the time,,,,1|2|3,,,,
 Mentally confused,1,Never|Sometimes|All the time,,,,1|2|3,,,,
 Uncooperative,1,Never|Sometimes|All the time,,,,1|2|3,,,,
